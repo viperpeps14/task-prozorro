@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5 !important;
+}
+header {
+    height: 100px;
+    padding-top: 20px;
+}
+header img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.content{
+    margin-top: 30px;
+}
+
+h1 span{
+    color:#A5DF9D;
+}
+h1{
+    text-align: center;
+}
+.filter{
+    border: 2px solid #F8F9FA;
+    border-radius: 25px;
+    background: #FFFFFF;
+    height: 500px;
+    padding-top: 20px;
+}
+.item_tender{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.item_tender span{
+    color: black;
+}
+.stunned span{
+    color:#C80000;
+}
+
+.item_tender .position_left .title_tender{
+    margin-bottom: 20px;
+}
+.item_tender .position_left .title_tender a{
+    font-size: 18px;
+    line-height: 0.2;
+    color: #23ADDE;
+    text-decoration: none;
+} 
+.company_tender span,
+.id_tender span{
+    font-weight: bold;
+}
+.elek_tender .status{
+    background-color: #A5DF9D;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.title_price{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #599a4f;
+    text-transform: lowercase;
+    text-align: right;
+}
+.price{
+    font-size: 20px;
+    line-height: .8;
+    color: #599a4f;
+}
+.price span{
+    display: inline-block;
+    margin-top: 5px;
+    color: #599a4f;
+    font-size: 16px;
+}
+.stunned{
+    margin-top: 20px;
+}
+.page-item-active a{
+    border: 2px solid #A5DF9D;
+}
